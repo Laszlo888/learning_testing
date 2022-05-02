@@ -1,0 +1,71 @@
+1. 
+A - funkcionális alkalmasság
+B - biztonság
+C - megbízhatóság
+D - használhatóság
+E - teljesítmény
+F - kompatibilitás
+G - karbantarthatóság
+H - hordozhatóság
+
+2.
+A - kiértékelés
+B - verifikálás
+C - validálás
+D - bizalom kiépítése 
+E - hibák megtalálása
+F - smoke test
+G - jogi megfelelés
+
+3.
+funkciók
+funkciókat
+
+4.
+1.) fõ funkciók hibamentesen mûködnek (admin rész és vásárlás,keresés)
+2.) 
+minden jogszabálynak megfelel a rendszer
+a funkciók hibamentesen mûködnek
+minden tervezett teszt lefutott
+3.)
+minden funkció hibamentesen mûködik
+minden jogszabálynak megfelel
+minden tervezett teszt lefutott 
+
+5.
+projekt állása: hibákat párhuzamosan javítják a keletkezésükkel,határidõre kész lehet a termék
+lapos görbe: elsõ hetekben talán azért van mert addig nincs dinamikus tesztelés
+görbék különbsége: hibák elõbb keletkeznek és utána kerülnek javításra illetve azt is mutatja hogy folyton keletkeznek hibák
+
+
+6.
+magas kockázat: F,G,H,J,K  (ahol emberélet forog kockán)
+közepes kockázat: B,D,E,I  (ahol jelentõs pénzügyi kár keltkezhet) 
+alacsony kockázat: A,C,L   (nagyobb probléma okozása nélkül javíthatók a hibák)
+
+7.
+kiadható:	A (egy újabb verzióban gyorsan javítva lesz)
+		E (nem sokat oszt-szoroz)
+		G (szerintem az jó ha nem tudnak belenyúlni vagy átírni ezeket az adatokat)
+		H (nagyon elavult az android 2, nagyon ritka lehet, tájékoztatni kell milyen androidtól fölfelé mûködik a szoftver)
+
+nem kiadható:	C (ki kell javítani)
+		F (javítani szükséges)
+		J (nem kérdés hogy javítani kell)
+		K (veszélyes helyzetben ez az idõ is számíthat)
+
+határeset:      B (késõbb javítani kell jelenleg pedig közölni az ügyféllel a szoftver korlátait)
+		D (minél gyorsabban javítani kell)
+		I (jobb kijavítani idegesítõ lehet ekkora összegnél)
+		L (ki lehet adni de gyorsan javítani kell)
+
+8.
+
+tesztelési alapelvek és befejezési kritérium:
+nem lehetséges kimerítõ teszt (elõbb-utóbb abba kell hagyni)
+hibamenteséégi téveszme (nem tudunk addig tesztelni amíg semmi hiba nincs a rendszerben)
+verifikáció (ha megfelel az elõírtaknak a szoftver akkor is talán be lehet fejezni a tesztelést)
+validáció (ha a vevõnek megfelel akkor akár be is fejezhetjük)
+
+
+ 

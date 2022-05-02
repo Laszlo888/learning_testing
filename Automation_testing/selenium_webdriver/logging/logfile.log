@@ -1,0 +1,10 @@
+[Test worker] INFO BaseTest - Test start, get browser driver
+[Test worker] INFO LoginPageTest - opening page
+[Test worker] DEBUG LoginPageTest - login page is loaded
+[Test worker] TRACE LoginPageTest - username: vereslaszlo34@gmail.com
+[Test worker] TRACE LoginPageTest - password: Asdfghj1
+[Test worker] DEBUG LoginPage - username input
+[Test worker] DEBUG LoginPage - password input
+[Test worker] DEBUG LoginPage - click login button
+[Test worker] DEBUG LoginPageTest - login successful
+[Test worker] INFO BaseTest - Test finished

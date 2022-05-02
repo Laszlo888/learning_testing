@@ -1,0 +1,21 @@
+<!--Write an XML document (people.xml) which describes a list of people, where every person has the following properties: Name,Age,Height-->
+<?xml version="1.0" encoding="utf-8"?>
+<person>
+  <name>József Kovács</name>
+  <age>42</age>
+  <height>182</height>
+  
+  <name>Géza Szabó</name>
+  <age>36</age>
+  <height>174</height>
+  
+  <name>Mária Köves</name>
+  <age>51</age>
+  <height>182</height>
+  
+  <name>Noémi Hanák</name>
+  <age>19</age>
+  <height>184</height>
+</person>
+
+<!-- last name wit xpath:  //person/name[last()]  -->	

@@ -1,0 +1,114 @@
+1.
+- C gomb megnyomására nullázza a kijelzõt
+- M+ gomb megnyomása után MR gombbal elõhívató a tárolt szám
+- gyökjel megnyomására gyökvonást végez
+- plusz-mínusz gomb megnyomására elõjelet változtat a szám
+- több szám összeadása után egyenlõségjel megnyomására kiírja az eredményt
+
+2.
+"Érdemes az éttermeket látványos jelölõvel kihelyezni a térképre, hogy könnyû legyen észrevenni õket."
+
+- én el tudnám a fenti mondatot fogadni. Max a jelölõbe tudnék belekötni hogy az mi legyen.
+
+- Az étterem listában minimum 10, maximum 20 férjen el egy képernyõn kilistázáskor.
+- Az étterem leírás elsõ bekezdését megjeleníthetjük...
+- Az étterem értékelések pontszám átlagát pirossal vagy narancssárgával...
+
+- szintén el tudnám fogadni a mondatot, talán annyi, hogy elsõ oldalon legfelül szerepeljen a saját véleménye 
+
+3.
+
+magas szintû követelmények:
+
+- weboldal készítése a cél    1
+- a felhasználóknak felsõoktatási intézményeket kell tudni értékelniük szövegesen és pontozással is     1
+- admin felület szükséges a weboldalhoz, az intézmények listájának kezeléséhez                 1
+- az intézmények között több szempont szerint tudnia kell a felhasználónak szûrni,keresni      2
+- értékelés megváltoztatható kell legyen, azaz felhasználói fiókók szükségesek lesznek         1
+
+alacsonyabb szintû követelmények:
+
+- felhasználó regisztrációnál kérje a nevet,életkort, nemet, jelenleg melyik intézmény hallgatója(legördülõ listából kiválasztva)  1
+- felhasználói fiókban lehessen felhasználónevet,jelszót változtatni       2
+- bejelentkezési lapon  alul elfelejtett jelszó szöveg jelenjen meg rákattintva jöjjön elõ egy lap amin megadja regisztrációs e-mail címét amire kapnia kell egy jelszóváltoztatásra alkalmas linket   2
+- felhasználói fiókhoz lehessen fényképet,avatart hozzáadni max 200x200-as méretben és max 500KB méretben  5
+- a regisztrációs oldal linkje jobb felsõ sarokban legyen       3
+- regisztrációs mezõ sarkai lekerekítettek legyenek             5
+- weboldal felsõ részén egy kép lesz elhelyezve 1920x300-as méretben, azon középen lesz a weboldal címe		2
+- weboldal tartalom részének háttere legyen #E3EEF5 színü               4
+- tartalom rész két oszlopból álljon, bal oldaliban max 4000 karakter hosszú leírás a honlapról, jobb oldaliba menjen az értékelõ rész      1
+- láblécet is tartalmazzon a weboldal 1920x200-as méretben #BFC3CD-színnel   3      
+- értékelõ rész álljon egy legördülõ menübõ amibõl kiválasztja az értékelni kívánt intézményt. Szövegeses mezõ legyen max 2000 karakterig és pontszámot is kell választania 1-tõl 10-ig szintén legördülõ menübõl        1
+- az értékeléseket mentés gombra mentse el, legyen egy módosít gomb is hogy késõbb meg lehessen változtatni az értékelést    1  
+- jobb oldali részbe értékelések alá szükséges egy táblázat ahol városokra,pontszámokra lehessen szûrni az intézmények között. A szûrõfeltételt rádiógombbal válasszák ki.      1
+- honlap alap betûtípusa legyen arial           4
+- legyen egy link adminok bejelentkezéséhez,regisztrációjához. admin felületen az intézményi adatbázist kell tudni módosítani  1
+
+4.  youtube mobile app (free version)
+
+magas szintû követelmények:
+
+- youtube videómegosztó weboldal mobilos applikáció formájában megjelenítve    1
+- mindenféle op. rendszerü mobilon futnia kell     1
+- google play áruház app-ból legyen telepíthetõ                 1
+- mindeféle képernyõméreten jól mutasson      1
+- reklámokat is meg tudjon jeleníteni         1
+
+alacsonyabb szintû követelmények:
+
+- az alkalmazás ikonja egy fehér körben piros téglalap lekerekített sarkokkal és benne egy fehér lejátszás jel       1
+-tartalmazzon fejlécet amiben youtube logo bal felsõ sarokban    2 legyen,tartalomban keresõ jobb oldalon legyen a google fiók ikonjával együtt       2
+- be lehessen jelentkezni a google fiókba az alakalmazásból   2
+- legfelül személyre szabott hirdetés jelenjen meg a képernyõ 50%-át elfoglalva    3
+- reklám alatt jelenjenek meg az algoritmus által felajánlott videók
+méretük 40%-a legyen a képernyõnek    4
+- az app a képernyõ forgatására reagáljon    2
+- minden videó alatt,melett a videó címe,leírása mezõ kell megjelenjen  1
+- minden videóhoz tartozzon egy menü amit 3 függõleges pöttyel jelzünk, vízszintes helyzetben a jobb felsõ sarokban,függõleges helyzetben a videó alatt    2
+- menü tartalma legyen: mentés,megosztás,bejelentés,mentés megnézendõ videók közé,nem érdekel    2
+- megosztásra koppintva egy fehér hátterû a képernyõ 60%-át elfoglaló ikonokat tartalmazó oldal jöjjön fel    2
+- megosztás menü tartalma: link másolása ikon,gmail ikon,chats ikon,facebook ikon     2
+- bejelentésre kattintva fehér háttarû oldal jöjjön fel a képernyõ közepén a képernyõ felét elfoglalva a következõ rádiógombos szövegekkel: szexuális tartalom,erõszakos tartalom,spam    2
+-keresõ ikonja egy nagyító legyen, keresõ fejlécében legyen egy undo nyíl egy beviteli mezõ és egy mikrofon ikon amivel hang alapján lehet keresni látássérülteknek      2
+-a keresõ fejléce alatt jelenjen meg elõzõleg keresett kifejezések,gyakan használt kifejezések, alul pedig a telefonon beállított beviteli billentyûzet jelenjen meg  1 
+-az alkalmazásnak legyen lábléce ahol a kezõlap ikon foglal helyet bal oldalt,mellette felfedezés ikon,középen a videófeltötõ ikon,feliratkozások,ikon és könyvtár ikon szerepeljen   2
+
+5. menetrendek.hu
+
+magas szintû követelmények:
+
+- Magyarország busz,vonat és hajó közlekedési menetrendjét megjelenítõ weboldal     1
+- minden böngészõn fusson     2
+- minden képernyõméreten megfelelõ kinézetû legyen                 2
+- keresni kell tudni dátum és város alapján a látogatónak      1
+- szükséges térképes megjelenítés a járatokhoz         1
+
+alacsonyabb szintû követelmények:
+
+- a weblap hátterét egy virágos kép adja kék éggel
+- weblap címe menetrendek.hu bal széltõl 15%-ra legyen felülrõl 10%-ra kezdõdjön     2
+- alatta tervezze meg utazását feilrat cpas lockkal írva 3-szor akkora méretben mint a mentrendek.hu szöveg  3
+- a szövegek fehérek legyenek hogy a kék égen jól látszódjanak 3
+- tervezze meg utazását felirat alá egy linksor amiben kilehet jelölni hogy mindenre keresünk vagy csak vagy csak vonatra, illetve legyen egy legutóbbi keresések link is     1
+- ez alatt jöjjenek a keresõ mezõk fekete alapon fehér beviteli mezõ:honnan belsõ rávezetõ felirattal a második mezõ hová szintén 
+ugyanolyan design-al,mellette legyen egy plusz jel ami utazás közbeni érintési pont hozzáadását teszi lehetõvé,mellette dátum mezõ az mellett óra mezõ,mellettük keresés mezõ ami legyen kék alapon fehér szöveg  1
+- ezek alatt linkek egymás mellett amelyek átvezetnek a bkk a máv a mahart a gysev a bahart weboldalára 3
+- a weblap jobb felsõ sarkában 15% jobbról,10% felülrõl legyen egy ikon az akadálymentes verziónak és egy kérdõjel ikon amire rákkatintva a honlap mûködését mutatjuk be egy animáció formájában         3
+- weblapon átvezetõ linkek alatt a weblap fölé bejövõ hírdetési felület legyen       2    
+- keresés gombra kattintva a hírdetési felület helyén feljön a találatok listája mezõ amely 3 részre osztható az elsõ az indulási rész jármû ikonokkal, indulási idõvel és indulási hellyel plusz egy rgomb ami majd részletezi a járatokat lefelé tolva a többi találatot
+-második rész az információ megteendõ távolságról, átszállások számáról, várható idõtartamról,járatszámokról   1
+-harmadik rész érkezési rész, érkezési idõvel és hellyel
+
+
+
+6.
+
+-Az éttermek listájának megjelenítése történjen meg 1 másodpercen belül
+- (ezt én talán elfogadnám)
+-Az étterem kersõnek mûködnie kell android-on,IOS-en,blackberrys-en,symbian-on,windows-on
+- A kiválasztott étterem jelenjen meg 1 másodpercen belül
+- Az app támogassa a megosztásokat,mentést,kedvenc beállítást legutóbbi kereséseket
+- (teljesen szubjektív mi szép)
+- bejelentkezés biztonsági része a mai szabványoknak megfeleljen
+- az étterem elhelyezését google térkép alaklmazáson legyen elhelyezhetõ
+- gps pozició meghatározása a mobil készüléktõl függõen a legpontosabb legyen

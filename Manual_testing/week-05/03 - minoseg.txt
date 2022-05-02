@@ -1,0 +1,92 @@
+1.
+autó:
+- ha nem romlik el benne "két havonta" valami
+- nem fogyaszt sokat
+- kényelmes
+- jó az útfekvése
+
+lakás:
+- falak épek,nem dohosak,penészesek,vakolat nem hullik
+- nem dohányoztak benne ezelõtt
+- kilátás szép részre esik legalább egyik oldalon
+- konyha,fürdõszoba nem miniatûr méretû
+- erkély legyen
+- redõny,szunyogháló legyen
+- áram,fûtés,víz,internet legyen
+
+2.
+
+jó minõségû szoftver: jegyzettömb
+- gyors
+- egyszerû
+- nincsen telepakolva fölösleges funkciókkal
+- lehet keresni vagy cserélni a szövegben
+- nincs szüksége folytonos frissítésre
+
+rossz minõségû szoftver: windows 10
+- folytonos frissítést igényel
+- frissítések gyakran elrontják az addig jól mûködõ funkciókat
+- nem kompatibilis régebbi alaplapokkal (driver problémák)
+- rengeteg fölösleges funkcióval van tele
+- viszonylag nagy erõforrást igényel
+
+3.
+
+1) teljesítmény,hatékonyság
+2) megbízhatóság
+3) biztonság
+4) használhatóság
+5) megbízhatóság
+6) kompatibilitás
+7) karbantarthatóság
+8) funkcionális alkalmasság
+9) biztonság
+
+4.
+
+funkcionális alkalmasság
+- termékekre keresni lehessen ár,név és kategória szerint
+- regisztrálni lehessen vásárlói fiókot
+- ki lehessen választani termékeket és fizetni lehessen bankkártyával
+
+teljesítmény,hatékonyság
+- honlap akkor sem lehet lassú ha 2000-en vannak rajta egyszerre
+- vásárlás visszaigazolása egy percen belül történjen meg
+- pénz elküldése azonnal történjen meg
+
+kompatibilitás
+- 3 legnépszerûbb bankkártya márkával kompatibilis legyen a fizetési rendszer
+- 3 legnépszerûbb böngészõvel kompatibilis legyen a rendszer
+- mobil eszközök kijelzõivel is kompatibilis legyen
+
+használhatóság
+- egyszerû keresés
+- könnyû regisztráció és belépési lehetõség
+- egyszerû fizetési lehetõségek
+
+megbízhatóság
+- ne legyen kiesés a szolgáltatásban
+- kifizetés problémamentes legyen
+- árak frissítve legyenek
+
+biztonság
+- felhasználói fiók belépési adatai titkosítva legyenek
+- kifizetés biztonságos csatornán át történjen
+- admin fiókok belépési adatai szintén titkosítottak legyenek
+
+karbantarthatóság
+- admin felületek könnyen kezelhetõek, gyorsak legyenek
+- forráskódban megjegyzések legyenek a fõbb ciklusoknál
+- verziókban történt változások dokumentálása
+
+hordozhatóság
+- fõbb szerver típusokkal kompatibilis legyen a backend rész
+- fõbb adatbázis gyártók adatbázisaival is kompatibilis legyen
+
+
+
+
+
+
+
+

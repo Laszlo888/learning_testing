@@ -1,0 +1,71 @@
+1.
+
+Tesztelés közben kiderülõ komolyabb problémák javítása miatt lehet komolyabb határidõ csúszás, plusz költségek merülhetnek fel vagy a szoftver együtt él a meglévõ hibákkal. 
+Megoldás a fejlesztés közbeni és az elõtti tesztelés lehet.
+
+2. 
+
+Követelmények meghatározása:
+IT üzleti elemzõ,követelmény mérnök
+
+tervezés:
+tervezõ mérnök, architekt
+
+implementálás:
+fejlesztõ
+
+tesztelés:
+tesztelõk
+
+Átadás:
+IT üzleti elemzõ
+
+Karbantartás:
+mindenki az elõbb felsoroltakból 
+
+érdekellentétek: projektmenedzser bárkivel kerülehet érdeklellentétbe határidõk,költségek betartása végett vagy nem észrevett hibák miatt.
+fejlesztõ-tesztelõ között szintén létrejöhet vita hiba megtalálása esetén
+üzleti elemzõ és ügyfél között is lehet vita ha nem pontosan azt kapta a megrendelõ amit kért vagy nem tudta jól elmondani mit akar
+
+Közös cél nyilván a jó szoftver elkészítése minél kevesebb hibával, a megrendelõ igényeinek kiszolgálása
+
+Sikeres project szempontjai szereplõnkként:
+megrendelõ - megkapta amit kért
+felhasználó - betanítás után problémamentesen tud dolgozni a szoftverben
+projektmenedzser - költségek,határidõk betartásával elõállította a csapat a kívánt terméket
+üzleti elemzõ - elégedett megrendelõ,kevés reklamáció
+fejlesztõ - mûködõ,használható kód megírása, kevés javítandóval
+tesztelõ - mûködõ használható szoftver kiadása, kevés jelentõs javítással a végén,cég presztízsének megõrzése
+
+3.
+
+együttmûködés tesztelõként:
+tesztcsapat tagjaival,programozókkal,projekt menedzserrel,üzemeltetõvel,követelmény mérnökkel,felhasználóval
+
+4.
+
+vita esetén: szerintem az adott egység fõnökei dönthetnek kinek van igaza vagy a projektmenedzser dönti el
+
+5.
+?
+
+6.
+hiba esetén:
+fejlesztõ nyilván nem örül neki
+projektmenedzser egyrészt örülhet hogy fény derült rá és nem ment ki így a szoftver másrészt mérges lehet a fejlesztõi hibára
+ügyfélnél ha utólag derül ki valamilyen hiba presztízsveszteséget okozhat a cégnek
+
+7.
+Tisztelt Projektmenedzser Úr!
+A holnap utáni átadásra készített szoftver tesztelése közben a korábban javításra visszaküldött súlyos hiba ismét elõjött 10 perc folyamatos használat után. Kérném, hogy amennyiben lehetséges újra nézzék meg ezt a hibát. Amennyiben nem javítható egy nap alatt akkor az átadást halasztani kellene. 
+
+Üdvözlettel, VL
+
+8.
+
+Tisztelt XY!
+
+Az ajtóvezérlõ program tesztelése közben felmerült ötletekrõl tájékoztatnám: 
+- az ablakon nehezen igazodok el valószinüleg a felhasználónak is gondot fog okozni. Talán érdemes lenne ezt a sok információt két külön ablakban elõhozni így egyszerûbb lenne a tájékozódás rajta és gyorsabban is töltõdne be. 
+- az ikonokat olyanra kellene lecserélni ami passzol a többi dizájn elemhez
+Egyébként jó és kemény munka!

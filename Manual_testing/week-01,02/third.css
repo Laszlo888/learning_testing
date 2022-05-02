@@ -1,0 +1,110 @@
+body{
+  margin: auto;  /* ez lenne a középre igazítás */
+  font-family: "consolas";
+  background-image: url("assets/bg.jpg");
+  font-size: 18px;
+  }
+
+#header {
+  padding: 0px 10px 5px 10px;
+}
+
+#logo { 
+  position: absolute;
+  top: 1.5vw;
+  left: 4%;
+  max-width: 13%;
+}
+
+#fejlecszoveg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4vw 0px 0px 22vw;
+  color: white;
+  font-size: 6vw;
+  font-family: "Syne Mono";
+  display: block;
+}
+
+nav{
+  display: table;
+  margin:auto;}
+nav ul {
+  overflow: hidden;
+  list-style: none;
+  margin:auto;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7em 2em;
+  font-weight: bold;
+}
+
+nav a:link {
+  background: white;
+}
+
+nav a:visited {
+  background: #393;
+}
+nav a:hover {
+  background: #c4a950;
+}
+nav a:active {
+  background: #072f50;
+}
+
+@media screen and (max-width: 500px) {
+  nav ul li a {
+    display: block;
+    font-size: 3vw;}
+}
+
+p{line-height: 1.6;}
+
+
+h1 {
+margin: 0px 0px 0px 0px;  /* heading körüli üres területek eltüntetése */
+padding: 0px 0px 0px 0px; /* heading körüli üres területek eltüntetése */
+}
+
+p.foot,p.foot a{
+  display:inline-block;
+  color: white;
+  padding: 10px 0px 0px 30px;
+}
+
+footer {
+  height: 100px;
+  margin: 0px 10px;
+  background-color: #333;}
+
+
+.content3{
+  display: inline-block; /* egymás mellé bejövő div-ek */
+  width: 700px;  /* szükséges az inline-block-hoz hogy megadjuk mennyi legyen egy sorban */
+  vertical-align: top; /* ha ezt nem adjuk meg akkor nem a tetején kezdődik mindegyik div tartalom */
+  text-align: left;
+  margin: 50px auto;
+  padding: 0px 25px 0px 50px;
+  line-height: 1.6;}
+
+.content4 {
+  display: inline-block; /* egymás mellé bejövő div-ek */
+  width: 650px;  /* szükséges az inline-block-hoz hogy megadjuk mennyi legyen egy sorban */
+  vertical-align: top; /* ha ezt nem adjuk meg akkor nem a tetején kezdődik mindegyik div tartalom */
+  text-align: left;
+  margin: 30px auto;
+  padding: 0px 0px 0px 10px;
+  }
+

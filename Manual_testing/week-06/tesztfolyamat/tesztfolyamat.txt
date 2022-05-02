@@ -1,0 +1,99 @@
+2. webkincstár - bejelentkezés
+tesztelendõ funkciók:
+- elsõ belépés kipróbálása, kapunk-e jelszót pl. sms-ben és a kapott jelszóval mûködik-e
+- a kötelezõen megváltotatandó jelszó valóban csak azt a sémát fogadja-e el amit elõírtak
+- további bejelentkezésnél ellenõrizni, hogy kapunk-e sms-t vagy push üzenetet és mûködik-e a kapott kóddal a szoftver, illetve kipróbálni 10 perc után a kódokat(amikor már érvénytelen)
+- bejeltkezés kipróbálása e-személyivel
+- kipróbálni 5 sikertelen belépés után valóban letilt-e aznapra
+- új jelszó kérése funkció valóban a dokumentáció szerint zajlik-e le
+- jelszómódosítás kipróbálása telekincstáron keresztül
+- kezdõképernyõ ellenõrzése valóban a leírtak jelennek-e meg rajta
+- súgó kipróbálása
+- a fentiek ell-e a megadott böngészõkben
+
+3.
+- bárki el tudja végezni a tesztelést
+- fény derül minden dologra ami esetleg még hiányzik a végrehajtáshoz
+
+4.
+szükséges tesztadatok webkincstár-bejelentkezés:
+- felhasználónév,jelszó
+- telekincstár belépési adatok
+
+5.
+tesztkörnyezet webkincstár-bejelentkezéshez:
+- internetes számítógép
+- e-személyi 
+- mobiltelefon (sms kódhoz)
+
+6.
+tesztlezárás dokumentumai mire lehetnek jók:
+- karbantartásnál hasznos lehetnek
+- tesztelõk,fejlesztõk tanulhatnak a feltárt hibákból
+- bizonyíték arra milyen hibák lettek kiszûrve
+
+
+7.
+
+
+8.
+user-story analízis: tesztelemzés
+tervezés és becslés: teszttervezés
+teszt tervezés:mûszaki teszttervezés
+tesztkörnyezet felállítása: tesztmegvalósítás
+teszt végrehajtás: tesztvégrehajtás
+hiba kimutatás: tesztlezárás
+
+
+9.
+tesztterv módosítása:
+- új vevõi igények felmerülése
+- hibák csoportosulása miatt érdemesebb azokat a részeket nézni ahol hibák vannak
+- határidõ miatt kihagynak részeket a szoftverbõl
+
+10.
+tesztmenedzsment:
+- felelõs az egész tesztelési folyamatért
+vezetõ: tesztmenedzser
+
+teszttervezés:
+- tesztelés céljait meghatározzák,tesztelés ütemtervét az alkalmazandó technikákat tisztázzák,meghatározzák milyen mutatókat fognak figyelni
+vezetõ: tesztmenedzser
+
+- tesztfelügyelet és irányítás: a teszterv alapján figyelik a tesztelés elõrehaladását az ott lefektett mutatók alapján
+vezetõ: tesztmenedzser
+
+tesztlezárás: ellenõrzik hogy minden hibajelentés le van-e zárva,összefoglalót készítenek a tesztelésrõl a hibákról ezeket átadják az illetékeseknek
+vezetõ: tesztmenedzser
+
+dinamikus tesztfolyamat: tesztelemzés,mûszaki teszttervezés,tesztmegvalósítás,tesztvégrehajtás folyamata
+
+
+11.
+junior tesztelõ feltételezem elõször a végrehajtásban szerepel utána megvalósítás,tervezés,elemzés szóval a dinamikus részlegen szerepelhet elõször
+
+12.
+egy adott java verzió release folyamata, mérföldkövei:
+
+- funkció teljesítés állapot
+minden funkció integrálva van az egység tesztekkel együtt   (fejlesztõ,tesztelõ)
+
+- fejlesztõi elõzetes állapot
+van egy stabil verziója a szoftvernek, amit a fejlesztõk tesztelhetnek. ez a verzió elvileg már minden funkciót tartalmaz (fejlesztõ)
+
+- minden tesztet lefuttattak minden platformon legalább egyszer (fejlesztõ,tesztelõ)
+
+- felfutási szakasz állapota
+súlyos hibák javítása elõször, utána az egyéb kiadást akadályozó hibák javítása (fejlesztõ)
+
+- API és interface befagyasztása állapot
+ekkor már csak kiadást akadályozó hibákat javítanak  (fejlesztõ)
+
+- nulla hiba állapot
+hibák lezárva vannak,nincs kiadást akadályozó hiba,kisebb hibák késõbbi idõpontra halasztva javítva lesznek (tesztelõ)
+
+- végsõ kiadásra szánt verzió:
+a végsõ kész verzió tesztelésre kerül (tesztelõ)
+
+- kiadás:
+elérhetõ,használható a szoftver  (vezetõk)

@@ -1,0 +1,70 @@
+1.
+validációs hiba lehet:
+- nincs a szoftverben az egyik funkció, ami gondot okozhat a felhasználónak
+- a szoftver nem azt "csinálja" amire tervezték
+- a szofter rosszul csinálja azt amire tervezték
+
+verifikációs hiba lehet:
+- nem úgy néz ki a szoftver ahogy kérték
+- nem teljesít a szoftver bizonyos követelményeket
+- nem jól csinálja a szoftver amiket leírtak a követelményekben
+
+2.
+
+-"hibátlan szoftverterméket bocsát"  nincs hibátlan szoftver
+- "nincs olyan rejtett hibája, amely csak késõbb fog kiderülni"  erre nem esküdhetünk meg
+
+3.
+
+- körülmények (talán tûzfal szoftver komolyabb arra több idõ kellene)
+- hibák csoportosulása
+- féregírtó paradoxon
+- korai teszt
+- nincs hibátlan szoftver
+- 
+- nem lehetséges kimerítõ teszt
+
+4.
+2*99*9999 = 1 979 802 input lehetõség
+
+
+5.
+
+
+
+6.
+- A tesztelés hibák jelenlétét jelzi 
+autógyártás: gépjármûveknél is elõfordul hogy visszahívják õket hiba miatt
+szoftver: követelményeknek megfelel, de itt-ott lehet benne kisebb hiba
+
+- Nem lehetséges kimerítõ teszt:
+autógyártás: túl sokáig tartana és túl költséges lenne
+szoftver: gyakorlatilag manuálisan lehetetlen elvégezni,idõben kivitelezhetetlen
+
+-Korai teszt:
+autógyártás: alkatrészek beépítés elõtti vizsgálata
+szoftver:  statikus tesztelés még a fejlesztés elõtt vagy közben
+
+- Hibák csoportosulása:
+autógyártás: pl. fényezés rossz minõségû akkor a festõmûhelynek kell a problémát keresni
+szoftver:  rosszul sikerült modulok fejlesztõi javításra kényszerülnek
+
+- féregirtó paradoxon:
+autógyártás: ha erõsebb motort kap az autó és csak a végsebességet mérjük akkor az jó lesz de más hibára nem találunk rá
+szoftver:  javított szoftver verziókban ugyanazokat a dolgokat ell. egy idõ után nincs hiba benne hacsak nem nézünk meg más funkciót az nem romlott-e el
+
+- tesztelés függ a körülményektõl:
+autógyártás: mentõautóra másmilyen tesztek kellenek mint személy autóra
+szoftver:  orvosi szoftver életekrõl szól míg pl egy iktató szoftver nagyobb gond nélkül javítható
+
+- hibátlan rendszer téveszméje:
+autógyártás: hibátlan autó téveszméje :)
+szoftver:   követelményeknek megfelel, ahol hibát kerestünk ott nem volt hiba, de azért lehetnek benne kisebb hibák
+
+7.
+Calculator
+- tesztelés hibák jelenlétét jelzi,  nem lehetséges kimerítõ teszt: jó pár esetet végigpróbálunk akalkulátoron és amennyiben jó eredményeket adnak feltételezzük hogy a funkció minden esetben jól mûködik
+- korai teszt:  mûködjön az adott op. rendszerben, kinézete megfelelõ legyen
+- Hibák csoportosulása: ha nem mûködik az összeadás akkor ott kell keresni a hibákat
+- tesztelés függ a körülményektõl:  alacsony kockázatú szoftver
+- hibátlan rendszer téveszméje: esetleg összeomolhat az alkalmazás bizonyos szélsõséges esetekben amire nem tudtunk tesztelni
